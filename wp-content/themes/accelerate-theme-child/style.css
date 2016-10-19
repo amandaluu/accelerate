@@ -11,3 +11,18 @@
 */
 
 @import url('../accelerate-theme/style.css');
+
+
+/* Global Styles */
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+/* Homepage Styles */
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
