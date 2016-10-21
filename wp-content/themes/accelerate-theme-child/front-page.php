@@ -33,7 +33,7 @@ get_header(); ?>
 					<h2><?php the_title(); ?></h2>
 					<?php the_excerpt(); ?>
 					<a class="read-more-link" href="<?php the_permalink(); ?>">Read More <span>&rsaquo;</span></a>
-				<?php endwhile; ?>
+				<?php endwhile; // end of the blog post loop ?>
 			<?php wp_reset_query(); ?>
 		</div>
 	</div>
