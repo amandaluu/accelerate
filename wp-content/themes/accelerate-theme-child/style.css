@@ -51,3 +51,49 @@
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+/* Case Studies Page */
+
+aside.case-study-sidebar {
+  color: #3b3b3b;
+  float: left;
+  margin-right: 30px;
+  margin-top: 100px;
+  width: 300px;
+}
+
+aside.case-study-sidebar h2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0;
+}
+
+aside.case-study-sidebar h3 {
+  color: #878787;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 15px 0;
+}
+
+aside.case-study-sidebar h4 {
+  font-size: 14.5px;
+  margin: 15px 0;
+}
+
+aside.case-study-sidebar p {
+  font-size: 16.5px;
+  margin: 20px 0;
+}
+
+side.case-study-link a {
+  font-weight: bold;
+}
+
+main.case-study-images {
+  float: left;
+  width: 606px;
+}
+
+main.case-study-images img {
+  margin-bottom: 50px;
+}
