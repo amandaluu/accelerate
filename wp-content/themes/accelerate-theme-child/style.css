@@ -92,6 +92,7 @@ side.case-study-link a {
 main.case-study-images {
   float: left;
   width: 606px;
+  margin-top: 50px;
 }
 
 main.case-study-images img {
