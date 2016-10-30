@@ -30,7 +30,7 @@ get_header(); ?>
 
         <?php the_content(); ?>
 
-        <p><strong><a href="<?php echo $link; ?>">Site Link</a></strong></p>
+        <p><strong><a href="<?php echo $link; ?>">Visit Live Site</a></strong></p>
       </aside>
 
       <main class="case-study-images">
