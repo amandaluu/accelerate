@@ -14,7 +14,6 @@
 
 
 /* Global Styles */
-
 body {
   color: #3a3939;
 }
@@ -23,18 +22,17 @@ body {
     background: none repeat scroll 0 0 #45ac9d;
 }
 
-.button {
+.button,
+#nf-field-4.ninja-forms-field.nf-element {
     background: none repeat scroll 0 0 #45ac9d;
 }
 
 /* Homepage */
-
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 }
 
 /* Home - Featured Work Section */
-
 .featured-work h4 {
   font-size: 16.51px;
   text-transform: uppercase;
@@ -59,7 +57,6 @@ li.individual-featured-work {
 }
 
 /* Home - Blog Post */
-
 .blog-post {
   width: 50%;
 }
@@ -85,8 +82,7 @@ li.individual-featured-work {
 	text-transform: uppercase;
 }
 
-/* Home - Case Studies Single */
-
+/* Case Studies Single */
 aside.case-study-sidebar {
   color: #3b3b3b;
   float: left;
@@ -133,7 +129,51 @@ main.case-study-images img {
 }
 
 /* Home - Case Studies Archive */
-
 main.archive-case-study-images img {
   margin-top: 100px;
+}
+
+/* Contact Us Page */
+#content {
+  width: 64%;
+  margin: auto;
+}
+
+/* name and email fields */
+.nf-field-container.textbox-container.label-above,
+.nf-field-container.email-container.label-above {
+  display: block;
+  float: left;
+  width: 49%;
+  clear: initial;
+}
+
+.nf-field-container.email-container.label-above {
+  margin-left: 2%;
+}
+
+#nf-field-1,
+#nf-field-2 {
+  height: 38px;
+}
+
+/* your message field */
+#nf--field-3 {
+  height: 178px;
+}
+
+/* send button */
+#nf-field-4.ninja-forms-field.nf-element {
+  background: none repeat scroll 0 0 #45ac9d;
+  border: none;
+  color: white;
+  float: right;
+  height: 53px;
+  margin: auto;
+  width: 204px;
+}
+
+/* Confirmation Page */
+.nf-response-msg {
+  color: #45ac9d;
 }
