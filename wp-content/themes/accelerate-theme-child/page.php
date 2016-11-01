@@ -14,7 +14,7 @@
 
 get_header(); ?>
 
-	<div id="primary" class="site-content">
+	<div id="primary" class="contact-us-wrapper">
 		<div id="content" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
 					<h2><?php the_title (); ?></h2>

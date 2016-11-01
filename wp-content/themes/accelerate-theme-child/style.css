@@ -134,7 +134,7 @@ main.archive-case-study-images img {
 }
 
 /* Contact Us Page */
-#content {
+#primary.contact-us-wrapper {
   width: 64%;
   margin: auto;
 }
