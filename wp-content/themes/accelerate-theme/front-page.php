@@ -24,6 +24,4 @@ get_header(); ?>
 	</div><!-- .container -->
 </section><!-- .home-page -->
 
-<h4>testing</h4>
-
 <?php get_footer(); ?>

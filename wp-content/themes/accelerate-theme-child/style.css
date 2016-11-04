@@ -48,7 +48,7 @@ ul.home-featured-work {
 
 li.individual-featured-work {
   display: inline-block;
-  margin: 8px;
+  margin: 6px;
 }
 
 .individual-featured-work h3 {
@@ -134,7 +134,7 @@ main.archive-case-study-images img {
 }
 
 /* Contact Us Page */
-#content {
+.contact-us-wrapper {
   width: 64%;
   margin: auto;
 }
@@ -176,4 +176,47 @@ main.archive-case-study-images img {
 /* Confirmation Page */
 .nf-response-msg {
   color: #45ac9d;
+}
+
+/* About Page */
+.about-wrapper {
+  width: 790px;
+  margin: auto;
+}
+
+.about-content {
+  text-align: center;
+  margin: auto;
+  width: 485px;
+}
+
+.about-content h2 {
+    display: none;
+    text-transform: uppercase;
+  }
+
+/* hero area */
+.about-home-page {
+  height: 300px;
+  margin: 0;
+  padding: 0;
+}
+
+.about-homepage-hero {
+  margin: 0 auto;
+  padding: 77px 0 0 0;
+  width: 557px;
+}
+
+.about-homepage-hero h3 {
+  line-height: 35px;
+  margin: 0;
+}
+
+.about-homepage-hero h3 span {
+  color: #45ac9d;
+}
+
+.about-homepage-hero .button {
+  display: none;
 }
