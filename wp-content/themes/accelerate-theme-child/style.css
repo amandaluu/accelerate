@@ -179,6 +179,34 @@ main.archive-case-study-images img {
 }
 
 /* About Page */
+
+.about-page {
+    background: url(img/taxi-photo.jpg) no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+/* hero area */
+.about-hero {
+  color: white;
+  margin: 0 auto;
+  padding-top: 70px;
+  text-align: center;
+  width: 557px;
+}
+
+.about-hero p {
+  font-size: 25px;
+  line-height: 35px;
+  margin: 0;
+}
+
+.about-hero p span {
+  color: #45ac9d;
+}
+
+/* content area */
 .about-wrapper {
   width: 790px;
   margin: auto;
@@ -195,28 +223,8 @@ main.archive-case-study-images img {
     text-transform: uppercase;
   }
 
-/* hero area */
-.about-home-page {
-  height: 300px;
-  margin: 0;
-  padding: 0;
-}
-
-.about-homepage-hero {
-  margin: 0 auto;
-  padding: 77px 0 0 0;
-  width: 557px;
-}
-
-.about-homepage-hero h3 {
-  line-height: 35px;
-  margin: 0;
-}
-
-.about-homepage-hero h3 span {
-  color: #45ac9d;
-}
-
-.about-homepage-hero .button {
-  display: none;
+.about-intro {
+  margin: auto;
+  text-align: center;
+  width: 485px;
 }

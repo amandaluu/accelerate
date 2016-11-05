@@ -8,14 +8,28 @@
  */
 
 get_header(); ?>
+<section class="about-page">
+	<div class="site-content">
+    <?php while ( have_posts() ) : the_post(); ?>
+      <div class="about-hero">
+        <?php the_content(); ?>
+		  </div>
+    <?php endwhile; // end loop ?>
+  </div><!-- .site-content -->
+</section><!-- .about-page -->
 
-	<div id="primary" class="about-wrapper">
-		<div id="content" role="main" class="about-content">
-			<?php while ( have_posts() ) : the_post(); ?>
-					<h2><?php the_title (); ?></h2>
-					<?php the_content(); ?>
-			<?php endwhile; // end of the loop. ?>
-		</div><!-- #content -->
-	</div><!-- #primary -->
+<section class="intro">
+  <div class="site-content">
+    <?php while ( have_posts() ) : the_post();
+      $intro_headline = get_field('intro_headline');
+      $intro_copy = get_field('intro_copy'); ?>
+
+      <div class="about-intro">
+        <h2><?php echo $intro_headline; ?></h2>
+        <p><?php echo $intro_copy; ?></p>
+      </div>
+    <?php endwhile; // end loop ?>
+  </div><!-- .site-content -->
+</section><!-- .intro -->
 
 <?php get_footer(); ?>
