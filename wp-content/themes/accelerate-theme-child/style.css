@@ -228,3 +228,21 @@ main.archive-case-study-images img {
   text-align: center;
   width: 485px;
 }
+
+/* Services Posts */
+
+.service {
+  margin: 5% auto;
+  width: 90%;
+}
+
+.service-image {
+  float: left;
+  padding: 0 4% 20% 4%;
+  width: 24%;
+}
+
+.service-content {
+  float: left;
+  width: 60%;
+}
