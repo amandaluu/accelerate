@@ -48,7 +48,7 @@ ul.home-featured-work {
 
 li.individual-featured-work {
   display: inline-block;
-  margin: 8px;
+  margin: 6px;
 }
 
 .individual-featured-work h3 {
@@ -134,7 +134,8 @@ main.archive-case-study-images img {
 }
 
 /* Contact Us Page */
-#primary.contact-us-wrapper {
+
+.contact-us-wrapper {
   width: 64%;
   margin: auto;
 }
@@ -176,4 +177,91 @@ main.archive-case-study-images img {
 /* Confirmation Page */
 .nf-response-msg {
   color: #45ac9d;
+}
+
+/* About Page */
+
+.about-page {
+    background: url(img/taxi-photo.jpg) no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+/* hero area */
+.about-hero {
+  color: white;
+  margin: 0 auto;
+  padding-top: 70px;
+  text-align: center;
+  width: 557px;
+}
+
+.about-hero p {
+  font-size: 25px;
+  line-height: 35px;
+  margin: 0;
+}
+
+.about-hero p span {
+  color: #45ac9d;
+}
+
+/* content area */
+.about-wrapper {
+  width: 790px;
+  margin: auto;
+}
+
+.about-content {
+  text-align: center;
+  margin: auto;
+  width: 485px;
+}
+
+.about-content h2 {
+    display: none;
+    text-transform: uppercase;
+  }
+
+.about-intro {
+  margin: auto;
+  text-align: center;
+  width: 485px;
+}
+
+/* Our Services Posts */
+
+.service {
+  margin: 50px auto;
+  width: 85%;
+}
+
+.service-image-left {
+  float: left;
+  padding-right: 3%;
+  width: 27%;
+}
+
+.service-content-left {
+  float: left;
+  padding-bottom: 10%;
+  width: 70%;
+}
+
+.service-image-right {
+  float: right;
+  padding-left: 3%;
+  width: 27%;
+}
+
+.service-content-right {
+  float: right;
+  padding-bottom: 10%;
+  width: 70%;
+}
+
+.service-content-left h2,
+.service-content-right h2 {
+  margin-top: 3%;
 }
