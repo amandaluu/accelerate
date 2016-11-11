@@ -229,20 +229,38 @@ main.archive-case-study-images img {
   width: 485px;
 }
 
-/* Services Posts */
+/* Our Services Posts */
 
 .service {
-  margin: 5% auto;
-  width: 90%;
+  margin: 50px auto;
+  width: 85%;
 }
 
-.service-image {
+.service-image-left {
   float: left;
-  padding: 0 4% 20% 4%;
-  width: 24%;
+  padding-right: 3%;
+  width: 27%;
 }
 
-.service-content {
+.service-content-left {
   float: left;
-  width: 60%;
+  padding-bottom: 10%;
+  width: 70%;
+}
+
+.service-image-right {
+  float: right;
+  padding-left: 3%;
+  width: 27%;
+}
+
+.service-content-right {
+  float: right;
+  padding-bottom: 10%;
+  width: 70%;
+}
+
+.service-content-left h2,
+.service-content-right h2 {
+  margin-top: 3%;
 }
