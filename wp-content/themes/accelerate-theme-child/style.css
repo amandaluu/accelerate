@@ -44,6 +44,11 @@ body {
 }
 
 /* Home - Featured Work Section */
+
+.featured-work {
+  margin-bottom: 50px;
+}
+
 .featured-work h4 {
   font-size: 16.51px;
   text-transform: uppercase;
@@ -67,12 +72,19 @@ li.individual-featured-work {
   text-align: center;
 }
 
-/* Home - Blog Post */
-.blog-post {
-  width: 50%;
+.recent-posts {
+  padding-bottom: 50px;
 }
 
-.blog-post h4 {
+/* Home - Blog Post */
+
+.blog-post {
+  float: left;
+  width: 45%;
+}
+
+.blog-post h4,
+.twitter-feed h3 a {
   font-size: 16px;
 	font-family: 'Montserrat';
 	color: #a6a6a6;
@@ -85,12 +97,44 @@ li.individual-featured-work {
 	font-weight: bold;
 }
 
-.blog-post .read-more-link {
+.blog-post .read-more-link,
+.twitter-feed .read-more-link {
   font-size: 14px;
 	font-family: 'Montserrat';
 	font-weight: bold;
 	color: #45ac9d;
 	text-transform: uppercase;
+}
+
+/* Home - Twitter Feed */
+
+#pi_simpletwittertweets-2 {
+  margin: 0;
+  padding: 0;
+}
+
+#pi_simpletwittertweets-2 ul li {
+  list-style: none;
+}
+
+.twitter-feed {
+  float: left;
+  width: 40%;
+  margin-top: 35px;
+  margin-left: 50px;
+}
+
+.widget-title {
+  margin-top: 0;
+}
+
+.twitter-feed h3 {
+  margin-bottom: 40px;
+}
+
+.twitter-feed h3 a,
+.twitter-feed .read-more-link  {
+  margin: 0 20px;
 }
 
 /* Case Studies Single */
@@ -146,8 +190,8 @@ main.archive-case-study-images img {
 
 /* Contact Us Page */
 
-.contact-us-wrapper {
-  width: 64%;
+.content-wrapper {
+  width: 80%;
   margin: auto;
 }
 
@@ -192,15 +236,14 @@ main.archive-case-study-images img {
 
 /* About Page */
 
-.about-page {
+.hero-image {
     background: url(img/taxi-photo.jpg) no-repeat scroll left center / cover rgba(0, 0, 0, 0);
     height: 300px;
     margin: 0;
     padding: 0;
 }
 
-/* hero area */
-.about-hero {
+.hero-content {
   color: white;
   margin: 0 auto;
   padding-top: 70px;
@@ -208,32 +251,15 @@ main.archive-case-study-images img {
   width: 557px;
 }
 
-.about-hero p {
+.hero-content p {
   font-size: 25px;
   line-height: 35px;
   margin: 0;
 }
 
-.about-hero p span {
+.hero-content p span {
   color: #45ac9d;
 }
-
-/* content area */
-.about-wrapper {
-  width: 790px;
-  margin: auto;
-}
-
-.about-content {
-  text-align: center;
-  margin: auto;
-  width: 485px;
-}
-
-.about-content h2 {
-    display: none;
-    text-transform: uppercase;
-  }
 
 .about-intro {
   margin: auto;
@@ -275,4 +301,13 @@ main.archive-case-study-images img {
 .service-content-left h2,
 .service-content-right h2 {
   margin-top: 3%;
+}
+
+/* 404 Page */
+
+.404-image {
+  background: url(img/map.png) no-repeat center cover;
+  width: 300px;
+  height: 300px;
+  background-color: black;
 }
