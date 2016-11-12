@@ -311,3 +311,13 @@ main.archive-case-study-images img {
   height: 300px;
   background-color: black;
 }
+
+/* Sidebar */
+
+/* MailChimp Sign Up */
+
+.button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  background: none repeat scroll 0 0 #45ac9d;
+  color: white;
+  border: none;
+}
