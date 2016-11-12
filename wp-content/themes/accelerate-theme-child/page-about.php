@@ -8,17 +8,19 @@
  */
 
 get_header(); ?>
-<section class="about-page">
+
+<!-- Hero Area -->
+<section class="hero-image">
 	<div class="site-content">
     <?php while ( have_posts() ) : the_post(); ?>
-      <div class="about-hero">
+      <div class="hero-content">
         <?php the_content(); ?>
 		  </div>
     <?php endwhile; // end loop ?>
   </div>
 </section>
 
-<!-- Hero / Text Overlay -->
+<!-- Our Services -->
 <section>
   <div class="site-content">
     <?php while ( have_posts() ) : the_post();
@@ -30,19 +32,6 @@ get_header(); ?>
       </div>
     <?php endwhile; // end loop ?>
   </div>
-</section>
-
-<!-- Our Services Section -->
-<section>
-	<div class="site-content">
-		<?php while ( have_posts() ) : the_post();
-			$size = "full";
-			$service_image = get_field('service_1'); ?>
-			<?php if($service_image) { ?>
-				<?php echo wp_get_attachment_image( $service_image, $size ); ?>
-			<?php } ?>
-		<?php endwhile; ?>
-	</div>
 </section>
 
 <!-- Service Detail // created with advanced custom fields -->

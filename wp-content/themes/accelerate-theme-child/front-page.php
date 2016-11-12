@@ -24,8 +24,7 @@ get_header(); ?>
 	</div><!-- .container -->
 </section><!-- .home-page -->
 
-<!-- FEATURED WORK -->
-
+<!-- Featured Work -->
 <section class="featured-work">
 	<div class="site-content">
 		<h4>Featured Work</h4>
@@ -48,20 +47,32 @@ get_header(); ?>
 	</div>
 </section>
 
-<!-- FROM THE BLOG  -->
-<section class="recent-posts">
-	<div class="site-content">
+
+<section class="recent-posts clearfix">
+	<section class="site-content">
+
+		<!-- From the Blog  -->
 		<div class="blog-post">
 			<h4>From the Blog</h4>
 			<?php query_posts ('posts_per_page=1'); ?>
 				<?php while ( have_posts() ) : the_post(); ?>
 					<h2><?php the_title(); ?></h2>
-					<?php the_excerpt(); ?>
+						<?php the_excerpt(); ?>
 					<a class="read-more-link" href="<?php the_permalink(); ?>">Read More <span>&rsaquo;</span></a>
 				<?php endwhile; // end of the blog post loop ?>
 			<?php wp_reset_query(); ?>
 		</div>
-	</div>
-</section>
+
+		<!-- Twitter Feed -->
+		<div class="twitter-feed">
+			<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+				<div id="secondary" class="widget-area" role="complementary">
+					<?php dynamic_sidebar( 'sidebar-2' ); ?>
+				</div>
+			<?php endif; ?>
+			<a class="read-more-link" href="<?php the_permalink(); ?>">Follow Us <span>&rsaquo;</span></a>
+		</div>
+	</section><!-- site content -->
+</section><!-- recent posts -->
 
 <?php get_footer(); ?>
