@@ -25,6 +25,12 @@
  * @since Accelerate Marketing 1.0
  */
 
+function styles() {
+  // load scripts
+  wp_enqueue_script('masonry', get_template_directory_uri() . '/node-modules/masonry-layout/masonry.js', array(), '4.1.1', true );
+}
+add_action('wp_enqueue_scripts', 'styles');
+
 function create_custom_post_types() {
 // case studies
   register_post_type( 'case_studies',
